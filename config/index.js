@@ -17,9 +17,9 @@ let config = {
   port: 9000,
   dal: {
     redis: {
-      host: validateEnv('REDIS_HOST', true),
+      host: 'redis',
       port: 6379,
-      password: validateEnv('REDIS_PASSWORD', false)
+      password: ''
     }
   }
 };
