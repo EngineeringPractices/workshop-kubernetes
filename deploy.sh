@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
 
-docker pull ihakula/idea-board
-docker-compose up -d
+cd terraform
+terraform init
+terraform plan
+
+kubectl get pods
+
+# gcloud projects create example-project-wayde191 --name=example-project
+# gcloud container clusters get-credentials first-cluster -z us-central1-a

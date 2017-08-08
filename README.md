@@ -15,3 +15,8 @@ The following steps will get you into a working state:
   - `npm run start`
 
 The application should then be on http://127.0.0.1:9000
+
+
+### Issues found
+
+* eu-west1-c region not found
