@@ -1,3 +1,10 @@
+# Steps
+
+1. install gcloud sdk
+2. install terraform
+3. gcloud auth login
+4. ./deploy.sh
+
 # Idea Wall
 This awesome application lets you post ideas, to a wall.  Clue is in the name, hey?
 
