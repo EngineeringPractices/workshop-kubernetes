@@ -14,10 +14,10 @@ const validateEnv = (key, bomb) => {
 };
 
 let config = {
-  port: 9000,
+  port: 80,
   dal: {
     redis: {
-      host: 'redis',
+      host: 'my-redis',
       port: 6379,
       password: ''
     }
